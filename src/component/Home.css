@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(43deg, #60d041 0%, #ffffff 46%, #ffcc70 100%)
+    no-repeat center fixed;
+  background-size: cover;
+  background-color: #121619;
+}
+
+.container {
+  margin: 5% auto 5% auto;
+  width: 100%;
+  height: 500px;
+  background-color: whitesmoke;
+  border: 2px solid rgb(197, 169, 169);
+  border-radius: 10px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5), 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.scrollable {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.sticky-thc {
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+}
+
+.bdg {
+  display: inline;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+}
+.logo:hover {
+  text-decoration: none;
+  color: #ffcc70;
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #121619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.socialMedia svg {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.socialMedia svg :hover {
+  color: #60d041;
+}
+
+.footer p {
+  color: white;
+}
+
+.carousel {
+  height: 60%;
+  width: 90%;
+  margin: auto;
+  border: 5px black solid;
+  margin-top: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px #121619, 0 4px 8px #121619;
+  border: 2px #121619 solid;
+}
+
+.flag {
+  background: url("../asset/flg.jpg") no-repeat center fixed;
+  background-size: cover;
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+  display: block;
+  border: 2px #121619 solid;
+  height: 270px;
+  margin-bottom: 20px;
+}
+
+.eocontainer {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.eoleft {
+  height: 100%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eoright {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e8f7f4;
+}
+
+.logincontainer {
+  display: flex;
+  height: 600px;
+}
+
+.loginleft {
+  height: 100%;
+  flex: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginright {
+  background-color: rgb(227, 238, 241);
+  border: 1px solid skyblue;
+  height: 100%;
+  flex: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu:hover{
+  background-color:rgb(119, 114, 107);
+}
